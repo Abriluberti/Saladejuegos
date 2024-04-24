@@ -1,0 +1,47 @@
+<header id="header" class="fixed-top header-inner-pages">
+  <div class="container d-flex align-items-center justify-content-between">
+    <h1 class="logo"><a href="index.html">HOME</a></h1>
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" routerLink="quien-soy">¿Quién soy?</a></li>
+        <li><a class="nav-link scrollto" href="#about">Preguntados</a></li>
+        <li><a class="nav-link scrollto" href="#services">Mi juego</a></li>
+        <li><a class="nav-link scrollto" href="#portfolio">Ahorcado</a></li>
+        <li><a class="nav-link scrollto" href="#team">Mayor o Menor</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+    
+    <!-- Mostrar información del usuario y botón de Log Out si está logueado -->
+   <!-- Mostrar información del usuario y botón de Log Out si está logueado -->
+<div class="logged-in-user">
+  <p>{{ usuarioActual.email }}</p>
+  <button (click)="logout()">Log Out</button>
+</div>
+</div>
+
+</header><!-- End Header -->
+
+<section id="hero">
+  <img src="assets/fondo.png" alt="Descripción de la imagen" class="img-fluid mb-3 custom-img" />
+  <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide 1 -->
+      <div class="carousel-container">
+        <div class="container">
+          <h2 class="animated fadeInDown">BIENVENIDO A LA SALA DE <span>JUEGOS</span></h2>
+          <p class="animated fadeInUp">Vas a poder divertirte y jugar todo lo que quieras</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+<router-outlet />

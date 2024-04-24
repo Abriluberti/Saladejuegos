@@ -1,0 +1,92 @@
+/* Estilos para el formulario de registro */
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilos para el contenedor de registro */
+  .container {
+    background: rgb(143, 154, 219);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el contenedor principal */
+.main {
+    animation: hue-rotate 6s infinite;
+    
+    background: url('https://31.media.tumblr.com/41c01e3f366d61793e5a3df70e46b462/tumblr_n4vc8sDHsd1st5lhmo1_1280.jpg');
+
+    z-index: -1;
+    
+  }
+  
+  
+  /* Estilos para el encabezado */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Estilos para el formulario */
+  .form {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los grupos de formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para las etiquetas de formulario */
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7599dd;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el botón de registro */
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #508ccc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el mensaje de error */
+  .errorMessage {
+    color: red;
+  }
+  
+  /* Estilos para el enlace de inicio de sesión */
+  .mt-3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
