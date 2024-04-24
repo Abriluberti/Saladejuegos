@@ -5,6 +5,7 @@
 ℹ️ Acerca de la Aplicación
 
 Este proyecto es una aplicación web que ofrece una amplia variedad de juegos divertidos para que los usuarios puedan medir y mejorar sus habilidades cognitivas y motrices. Diseñada con simplicidad en mente y pensando en brindar una experiencia divertida.
+
 🔍 Características Principales
 
  Almacenamiento de Datos: Utilizo la base de datos de Firebase para almacenar toda la información relevante de los jugadores y los resultados de sus partidas.
